@@ -13,6 +13,10 @@
 		C595DBE22647D9AA0072C5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C595DBE02647D9AA0072C5AB /* Main.storyboard */; };
 		C595DBE42647D9AF0072C5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C595DBE32647D9AF0072C5AB /* Assets.xcassets */; };
 		C595DBE72647D9AF0072C5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C595DBE52647D9AF0072C5AB /* LaunchScreen.storyboard */; };
+		C595DBF12647DCB50072C5AB /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C595DBEF2647DCB50072C5AB /* bar.png */; };
+		C595DBF22647DCB50072C5AB /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = C595DBF02647DCB50072C5AB /* tail.png */; };
+		C595DBF52647E3F10072C5AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C595DBF42647E3F10072C5AB /* GameViewController.swift */; };
+		C595DBF82647E3FE0072C5AB /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C595DBF72647E3FE0072C5AB /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C595DBE32647D9AF0072C5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C595DBE62647D9AF0072C5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C595DBE82647D9AF0072C5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C595DBEF2647DCB50072C5AB /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		C595DBF02647DCB50072C5AB /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		C595DBF42647E3F10072C5AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C595DBF72647E3FE0072C5AB /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,12 @@
 				C595DBDE2647D9AA0072C5AB /* ViewController.swift */,
 				C595DBE02647D9AA0072C5AB /* Main.storyboard */,
 				C595DBE32647D9AF0072C5AB /* Assets.xcassets */,
+				C595DBEF2647DCB50072C5AB /* bar.png */,
+				C595DBF02647DCB50072C5AB /* tail.png */,
 				C595DBE52647D9AF0072C5AB /* LaunchScreen.storyboard */,
 				C595DBE82647D9AF0072C5AB /* Info.plist */,
+				C595DBF42647E3F10072C5AB /* GameViewController.swift */,
+				C595DBF72647E3FE0072C5AB /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
 			sourceTree = "<group>";
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C595DBE72647D9AF0072C5AB /* LaunchScreen.storyboard in Resources */,
+				C595DBF22647DCB50072C5AB /* tail.png in Resources */,
 				C595DBE42647D9AF0072C5AB /* Assets.xcassets in Resources */,
 				C595DBE22647D9AA0072C5AB /* Main.storyboard in Resources */,
+				C595DBF12647DCB50072C5AB /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C595DBF82647E3FE0072C5AB /* RankingViewController.swift in Sources */,
+				C595DBF52647E3F10072C5AB /* GameViewController.swift in Sources */,
 				C595DBDF2647D9AA0072C5AB /* ViewController.swift in Sources */,
 				C595DBDB2647D9AA0072C5AB /* AppDelegate.swift in Sources */,
 				C595DBDD2647D9AA0072C5AB /* SceneDelegate.swift in Sources */,
